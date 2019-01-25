@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  word-break: break-all;
+}
+ol {
+  padding: 0 0 0 3em;
+  font-size: 10px;
+}
+
+.code {
+  font-family: Monaco;
+}
+#tooltip {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: Monaco;
+  font-size: smaller;
+  padding: 5px;
+  position: absolute;
+  visibility: hidden;
+}

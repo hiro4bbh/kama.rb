@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  width: 40em;
+}
+header {
+  margin-bottom: 1em;
+  text-align: right;
+}
+nav {
+  text-align: center;
+}
+footer {
+  font-size: smaller;
+  color: #5E5E5E;
+  margin-top: 1em;
+  text-align: center;
+}
+form {
+  display: inline-block;
+}
+form th {
+  padding-right: 1em;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+}
+a.nav {
+  color: #0076BA;
+  font-weight: bold;
+  text-decoration: none;
+}
+a.nav:hover {
+  color: #00A2FF;
+}
+span.wday-sun {
+  color: #EE220C;
+}
+span.wday-fri {
+  color: #FF9300;
+}
+span.wday-sat {
+  color: #0076BA;
+}
+
+.black {
+  color: #5E5E5E;
+}
+.blue {
+  color: #0076BA;
+}
+.green {
+  color: #1DB100;
+}
+.orange {
+  color: #FF9300;
+}
+.purple {
+  color: #CB297B;
+}
+.red {
+  color: #EE220C;
+}
+
+.calendar-edit, .event-edit, .signin, .signup {
+  text-align: center;
+}
+.error {
+  color: #EE220C;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar {
+  width: 100%;
+}
+.calendar th {
+  vertical-align: top;
+  width: 8em;
+}
+.calendar a.nav {
+  font-size: smaller;
+}
+.calendar td {
+  vertical-align: top;
+}
+.event {
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.25em;
+}
+.event-black {
+  background: #5E5E5E;
+  color: #FFFFFF;
+}
+.event-blue {
+  background: #0076BA;
+  color: #FFFFFF;
+}
+.event-green {
+  background: #1DB100;
+  color: #FFFFFF;
+}
+.event-orange {
+  background: #FF9300;
+  color: #FFFFFF;
+}
+.event-purple {
+  background: #CB297B;
+  color: #FFFFFF;
+}
+.event-red {
+  background: #EE220C;
+  color: #FFFFFF;
+}
+.event-link {
+  color: inherit;
+  font-size: smaller;
+  font-weight: bold;
+  text-decoration: none;
+}
+.event-title, .title {
+  font-weight: bold;
+}
+.event-time {
+  font-size: smaller;
+}
+.event-calname {
+  font-style: italic;
+  font-size: smaller;
+}

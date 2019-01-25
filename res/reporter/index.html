@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>kama.rb log reporter</title>
+  </head>
+  <body>
+    <h1>Online Clusters of Pages</h1>
+    <svg id="heatmap-oclust" width="100%" height="720px"></svg>
+    <div id="summary-oclust">
+      <a href="javascript:void(0)" id="download">Download Heatmap</a><br>
+      <ol class="code" id="pageset" start="0"></ol>
+    </div>
+    <h1>Dendrogram of Pages</h1>
+    <svg id="dendrogram" width="100%" height="720px"></svg>
+    <div id="summary-dendrogram">
+      <a href="javascript:void(0)" id="download">Download Dendrogram</a><br>
+      <span id="pageset-info"></span><br>
+      <span id="height-info"></span>
+    </div>
+    <div id="summary-clusters" style="display: none;">
+      <h2>Summary of Clusters</h2>
+      <svg id="heatmap" width="100%" height="720px"></svg>
+      <a href="javascript:void(0)" id="download">Download Heatmap</a><br>
+    </div>
+    <div id="summary-pageset" style="display: none;">
+      <h2>Summary of the Page Set <span id="pageset-name"></span></h2>
+      <div id="container">
+        <h3>Page List</h3>
+        <div id="pagelist" class="code"></div>
+        <h3>Histogram of Tags</h3>
+        <div id="histogram" class="code"></div>
+      </div>
+    </div>
+    <div id="dump-page" style="display: none;">
+      <h2>Dump of the Page <span id="page-name"></span></h2>
+      <div id="container">
+        <h3>DOM Tree</h3>
+        <svg id="domtree" width="100%" height="720px"></svg><br>
+        <a href="javascript:void(0)" id="download">Download DOM Tree</a><br>
+        <h3>Raw Response</h3>
+        <div id="rawres" class="code"></div>
+      </div>
+    </div>
+    <div id="tooltip"></div>
+  </body>
+  <script src="d3.v5.min.js"></script>
+  <script src="index.js"></script>
+</html>

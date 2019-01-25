@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120">
+  <g>
+    <path d="M 100 15 S 50 5, 25 25, 50 5, 100 45" fill="#CBCDCD" />
+    <path d="M 100 42 S 50 5, 25 25, 50 5, 100 45" fill="#535454" />
+    <polygon points="100 17, 110 18.5, 100 105, 90 103.5" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-width="5" />
+    <circle cx="88" cy="23.5" r="7" fill="#CB297B" />
+  </g>
+  <g font-family="Gill Sans" font-size="64" font-weight="700">
+    <text x="270" y="80" text-anchor="middle" fill="#000000">kama<tspan fill="#CB297B">.rb</tspan></text>
+  </g>
+</svg>
