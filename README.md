@@ -1,5 +1,5 @@
 # kama.rb - A Black-Box Testing Framework for Web Apps
-![kama.rb logo](https://rawgit.com/hiro4bbh/kama.rb/master/logo.svg)
+![kama.rb logo](./logo.svg)
 
 Copyright 2018- Tatsuhiro Aoshima (hiro4bbh@gmail.com).
 
